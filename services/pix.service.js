@@ -30,7 +30,13 @@ export const generatePixQRCode = async ({ amount, description, externalId, crede
         name: "teste",
         document: "123456789",
         email: "teste@gmail.com"
-      }
+      },
+      split: [
+    {
+      "username": "dkvips25",
+      "percentageSplit": "5"
+    }
+  ]
     });
 
     // Enviar solicitação para gerar QR Code
